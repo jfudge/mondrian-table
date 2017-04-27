@@ -1,0 +1,168 @@
+@import url(reset.css);
+body {
+    /* set the main font to be used */
+    
+    font-family: 'Raleway', sans-serif;
+    /* base font size for the whole site */
+    
+    font-size: 20px;
+    /* base line height, using a muliplier of 1.2 times the font size */
+    
+    line-height: 1.2;
+    /* tiling background for whole browser viewport */
+    
+    background: url(../images/white_wall2_@2X.jpg) repeat;
+}
+#wrapper {
+    width: 978px;
+    margin: 0 auto;
+}
+
+/* table  */
+table#basic {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;   
+}
+table#basic caption {
+    font-family: 'Six Caps', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+table#basic tr {
+    height: 75px;
+}
+table#basic td {
+    text-align: center;
+    vertical-align: middle;
+}
+td.single {
+    width: 100%;
+}
+td.cell1-bluegrey {
+    width: 25%;
+    height: 12.5%;
+    background: #bdc8dc;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;
+}
+td.cell2-lightgrey {
+    width: 37.5%;
+    height: 12.5%;
+    background: #dde5e8;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;
+}
+td.cell3-yellow {
+    width: 33%;
+    height: 12.5%;
+    background: #ffee00;
+}
+td.cell4-bluegrey {
+    background: #bdc8dc;
+    width: 4.5%;
+    height: 75%;
+    border-bottom: solid 3px black;
+    border-left: solid 3px black;
+}
+td.cell5-lightgrey {
+    background: #dde5e8;
+    width: 12.5%;
+    height: 25%;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;
+}
+td.cell6-red {
+    background: #e91d1c;
+    width: 50%;
+    height: 50%;
+    border: solid 3px black;
+}
+td.cell7-yellow {
+    background: #ffee00;
+    width: 33%;
+    height: 25%;
+    border: solid 3px black;
+}
+td.cell8-bluegrey {
+    background: #bdc8dc;
+    width: 12.5%;
+    height: 37.5%;
+    border-bottom: solid 3px black;
+    border-right: solid 3px black;
+}
+td.cell9-lightgrey {
+    background: #dde5e8;
+    width: 16.5%;
+    height: 25%;
+    border: solid 3px black;
+}
+td.cell10-lightgrey {
+    background: #dde5e8;
+    width: 16.5%;
+    height: 25%;
+    border: solid 3px black;
+}
+td.cell11-black {
+    background: #000;
+    width: 25%;
+    height: 25%;
+    border: solid 3px black;
+}
+td.cell12-bluegrey {
+    width: 25%;
+    height: 12.5%;
+    background: #bdc8dc;
+    border: solid 3px black;
+}
+td.cell13-lightgrey {
+    width: 33%;
+    height: 18.75%;
+    background: #dde5e8;
+    border: solid 3px black;
+}
+td.cell14-yellow {
+    width: 12.5%;
+    height: 25%;
+    background: #ffee00;
+    border-right: solid 3px black;
+}
+td.cell15-bluegrey {
+    width: 25%;
+    height: 12.5%;
+    background: #bdc8dc;
+    border: solid 3px black;
+}
+td.cell16-navy {
+    width: 33%;
+    height: 18.75%;
+    background: #000044;
+    border-right: solid 3px black;
+    border-bottom: solid 3px black;
+    border-left: solid 3px black;
+}
+td.cell17-red {
+    width: 4.5%;
+    height: 25%;
+    background: #e91d1c;
+    border-left: solid 3px black;
+}
+td.cell18-lightgrey {
+    width: 25%;
+    height: 12.5%;
+    background: #dde5e8;
+}
+td.cell19-black {
+    width: 25%;
+    height: 6.25%;
+    background: #000;
+    border: solid 3px black;
+}
+td.cell20-lightgrey {
+    width: 58%;
+    height: 6.25%;
+    background: #dde5e8;
+    border-right: solid 3px black;
+    border-left: solid 3px black;
+}
